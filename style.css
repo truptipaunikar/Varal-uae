@@ -1,0 +1,334 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* Navbar Start */
+nav{
+    display: flex;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    justify-content: space-between;
+    padding: 1rem 5rem;
+    background-color: white;
+}
+.navRight{
+    display: flex;
+}
+.navRight ul{
+    display: flex;
+    list-style: none;
+}
+nav ul li{
+    margin: 0.5rem;
+    padding: 0.7rem 1rem;
+    font-size: 1.5rem;
+    font-family: monospace;
+    text-align: center;
+    font-weight: bold;
+    color: rgb(152, 151, 151);
+} 
+nav ul li a{
+    text-decoration: none;
+
+}
+button{
+    background-color: rgb(101, 101, 237);
+    font-size: 1.5rem;
+    color: white;
+    padding: 1.2rem;
+    font-family: monospace;
+    border-radius: 0.3rem;
+    border-color: rgb(101, 101, 237);
+}
+/* Navbar End */
+
+/* Home Start */
+#Home{
+   margin-top: 9rem;
+   justify-content: space-between;
+}
+.home{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 4rem;
+}
+input{
+   color: rgb(101, 101, 237);
+   margin-left: 63rem;
+   font-size: 1.5rem;
+   padding: 0.9rem;
+   width: 25rem;
+   border: 2px solid blue;
+}
+#homeBtn .leftBtn{
+    background-color: rgb(101, 101, 237);
+    font-size: 1.5rem;
+    color: white;
+    padding: 1rem;
+    font-family: monospace;
+    border-radius: 0.3rem;
+    border-color: rgb(101, 101, 237);
+    width: 50%;
+    font-weight: 500;
+}
+.homeImg img{
+    height: 35rem;
+    width: 50rem;
+}
+.homeContent{
+    text-align: left; 
+    padding: 1rem;
+}
+.homeContent h6{
+    font-size: 1.7rem;
+    font-weight: 200;
+    font-family: monospace;
+    color: rgb(101, 101, 237);
+    padding: 1rem;
+}
+.homeContent h1{
+    font-size: 3rem;
+    font-weight: bolder;
+    padding: 1rem;
+}
+.homeContent p{
+    font-size: 1.5rem;
+    font-weight: 800;
+    color: rgb(152, 151, 151);
+    padding: 1rem;
+}
+
+.ReNewbtn{
+    background-color: white;
+    font-size: 1.5rem;
+    color: rgb(101, 101, 237);
+    padding: 1rem;
+    font-family: monospace;
+    border-radius: 0.3rem;
+    border-color: rgb(101, 101, 237);
+    width: 50%;
+    font-weight: 500;
+}
+#Home h5{
+    text-align: center;
+    margin: 4rem;
+    font-size: 1.5rem;
+    color: rgb(101, 101, 237);
+}
+h5 img{
+    height: 1.5rem;
+}
+/* Home End */
+/* Services Start */
+#service{
+    padding: 1rem 4rem;
+}
+.serviceHeading {
+   text-align: center;
+}
+.serviceHeading h1{
+    font-size: 2.5rem;
+    font-weight: bolder;
+    font-family: monospace;
+}
+.serviceHeading p{
+    font-size: 1.5rem;
+    padding: 1.8rem;
+    font-family: monospace;
+    color: rgb(152, 151, 151);
+    font-weight: 500;
+}
+.serContent{
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+    padding: 4rem;
+}
+.serContent img{
+    text-align: left;
+}
+.serContent h2{
+ font-size: 1.6rem;
+ margin:  1rem 0rem;
+ font-family: monospace;
+}
+.serContent p{
+ font-size: 1.2rem;
+ color: rgb(152, 151, 151);
+}
+.serContent h3{
+ font-size: 1.7rem;
+ font-family: monospace;
+ margin: 1rem 0rem;
+ color: orange;
+}
+.TwoPara{
+    display: flex;
+    justify-content: space-between;
+    margin: 3rem 6rem;
+}
+.serPara p{
+ font-size: 1.5rem;
+ font-family: monospace;
+ font-weight: 500;
+}
+.serPara h5{
+ padding: 1rem 0rem;
+ font-size: 1.5rem;
+ font-family: monospace;
+ color: rgb(101, 101, 237);
+}
+.Card{
+ border: 1px solid rgb(169, 169, 169);
+ border-radius: 0.7rem;
+ text-align: center;
+ margin: 11rem 0rem;
+ width: 30rem;
+ height: 43rem;
+}
+.Card img{
+ padding: 1.5rem;
+}
+.Card h1{   
+ font-size: 1.6rem;
+ font-family: monospace;
+}
+.Card p{
+ font-size: 1.4rem;
+ font-family: monospace;
+ color: rgb(152, 151, 151);
+ padding: 1rem;
+ text-align: left;
+}
+.Card h4{
+    font-size: 1.5rem;
+    text-align: left;
+    padding: 2rem;
+    color: rgb(101, 101, 237);
+}
+.Card h4 img{
+    justify-content: center;
+}
+.rightSide{
+    margin-top: 0rem;
+}
+/* Services End */
+/* Pricing Start */
+.priceHeading{
+    text-align: center;
+    padding-bottom: 6rem;
+}
+.priceHeading h1{
+    font-size: 2.4rem;
+    font-family: monospace;
+    font-weight: 800;
+}
+.PriceCard{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: left;
+}
+
+.PriceTag h4{
+    font-size: 2rem;
+    font-family: monospace;
+    color: rgb(101, 101, 237);
+    padding: 1rem 0rem;
+}
+.PriceTag h6{
+    font-size: 1.5rem;
+}
+.PriceTag{
+    background-color: white;
+    padding: 2rem;
+    font-family: monospace;
+    color: rgb(101, 101, 237);
+}
+.PriceTag h5{
+    font-size: 1.4rem;
+    padding: 1rem 0rem;
+}
+.PriceTag p{
+    font-size: 1.3rem;
+    padding: 0.7rem;
+}
+.PriceTag button{
+    background-color: white;
+    width: 20rem;
+    color: rgb(101, 101, 237);
+    border-radius: 0.6rem;
+    padding: 1.8rem;
+    margin: 1rem;
+    font-weight: bold;
+}
+/* Pricing End */
+/* About Start */
+#About{
+    margin: 13rem 3rem;
+}
+.Aboutmain{
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+    font-family: monospace;
+}
+.leftDiv h1{
+    font-size: 1.8rem;
+    padding: 3rem 4rem;
+}
+.paraOne .divbox{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 3rem 0rem;
+}
+.paraOne p{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.paraOne img{
+    height: 4rem;
+}
+.divTwo{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 4rem;
+    text-align: left;
+}
+.divTwo p{
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+.divTwo img{
+    height: 3rem;
+    padding: 3rem;
+}
+.rightDiv h1{
+    font-size: 1.8rem;
+    padding: 3rem 0.8rem;
+}
+.rightDiv h2{
+    font-size: 1.7rem;
+    padding: 1rem;
+}
+.lists ul li{
+    list-style: none;
+    font-size: 1.5rem;
+    margin: 0rem 0.6rem;
+    color: rgb(152, 151, 151);
+}
+.LastInp input{
+    margin: 0;
+    background-color: whitesmoke;
+    border: black;
+    padding: 1.3rem;
+}
+.LastInp{
+    display: flex;
+    padding: 2rem 0rem;
+}
+.imgIcon img{
+    padding: 1rem;
+}
+/* About End */
